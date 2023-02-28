@@ -13,7 +13,7 @@ function loader(element) {
   loadInterval = setInterval(() => {
     element.textContent += '.';
     if (element.textContent === '....') {
-      element.textContent = ' '  ;
+      element.textContent = ''  ;
     }
   }, 300);
 }
